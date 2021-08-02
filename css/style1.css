@@ -16,20 +16,25 @@
 #wrapper h1, #wrapper p {
     animation: changecolor 10s linear infinite;
     color: #00ff0a;
-    margin: 0;
     text-shadow: 0 0 15px #00ff0a;
 }
 
-nav {
+header {
     animation: changecolor 10s linear infinite;
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive;
     font-size: 72px;
+    margin-top: -375px;
 }
 
 p {
+    box-shadow: 0 0 15px #00ff0a;
+    border-radius: 15px;
+    width: 1000px;
+    height: 75px;
+    padding: 20px;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-size: 50px;
@@ -87,7 +92,7 @@ section.loader {
         .sci li::before {
             font-family: 'Helvetica', 'Arial', sans-serif;
             font-weight: 700;
-            color: #00ff0a;
+            color: white;
             content: attr(data-text);
             position: absolute;
             top: 50%;
@@ -100,7 +105,7 @@ section.loader {
         }
 
     .sci li:hover::before {
-            opacity: 0.25;
+            opacity: 0.5;
             transform: translate(-50%,+75px);
      }
         
