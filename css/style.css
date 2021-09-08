@@ -90,7 +90,7 @@ section.loader {
             color: #00ff0a;
             content: attr(data-text);
             position: absolute;
-            top: 50%;
+            top: 30%;
             left: 50%;
             transform: translate(-50%,-50%);
             font-size: 200px;
