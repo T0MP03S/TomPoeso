@@ -1,4 +1,4 @@
-﻿@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
     margin: 0;
@@ -39,7 +39,9 @@ textarea {
     z-index: 1000;
     overflow: hidden;
     display: grid;
-    grid-template-columns: repeat(2, 1fr)
+    grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 0 15px #00ff0a;
+    animation: changecolor 10s linear infinite;
 }
 
 nav {
@@ -48,7 +50,6 @@ nav {
 
 .contact-info-form {
     background-color: #00ff0a;
-    animation: changecolor 10s linear infinite;
     position: relative
 }
 
@@ -78,7 +79,6 @@ nav {
     width: 26px;
     height: 26px;
     background-color: #00ff0a;
-    animation: changecolor 10s linear infinite;
     transform: rotate(45deg);
     bottom: 66px;
     left: -13px
@@ -186,7 +186,6 @@ textarea.input {
         transition: 0.3s;
         height: 5px;
         background-color: #00ff0a;
-        animation: changecolor 10s linear infinite;
         top: 50%;
         transform: translateY(-50%)
     }
@@ -219,7 +218,6 @@ textarea.input {
 
     .contact-info .title {
         color: #00ff0a;
-        animation: changecolor 10s linear infinite;
     }
 
 .text {
@@ -263,7 +261,6 @@ textarea.input {
     margin-bottom: 14px;
     margin-right: 8px;
     color: #00ff0a;
-    animation: changecolor 10s linear infinite;
 }
 
 .big-circle {
@@ -272,7 +269,6 @@ textarea.input {
     height: 500px;
     border-radius: 50%;
     background: linear-gradient(to bottom, #00ff0a, #cb0b0b);
-    animation: changecolor 10s linear infinite;
     bottom: 50%;
     right: 50%;
     transform: translate(-40%, 38%)
